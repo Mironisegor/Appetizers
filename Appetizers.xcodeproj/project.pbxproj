@@ -20,6 +20,7 @@
 		E77881662BCD6650002CACA6 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77881652BCD6650002CACA6 /* Appetizer.swift */; };
 		F78D5E922BCD82D60055416E /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78D5E912BCD82D60055416E /* AppetizerListCell.swift */; };
 		F78D5E942BCD83B50055416E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78D5E932BCD83B50055416E /* NetworkManager.swift */; };
+		F79BB1D92BCD8D7400904FE2 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79BB1D82BCD8D7400904FE2 /* APError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		E77881652BCD6650002CACA6 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		F78D5E912BCD82D60055416E /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		F78D5E932BCD83B50055416E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F79BB1D82BCD8D7400904FE2 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				E77881652BCD6650002CACA6 /* Appetizer.swift */,
 				F78D5E912BCD82D60055416E /* AppetizerListCell.swift */,
 				F78D5E932BCD83B50055416E /* NetworkManager.swift */,
+				F79BB1D82BCD8D7400904FE2 /* APError.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E77881662BCD6650002CACA6 /* Appetizer.swift in Sources */,
+				F79BB1D92BCD8D7400904FE2 /* APError.swift in Sources */,
 				F78D5E922BCD82D60055416E /* AppetizerListCell.swift in Sources */,
 				E77881622BCD5C09002CACA6 /* AccountView.swift in Sources */,
 				E77881382BCD5B55002CACA6 /* AppetizerTabView.swift in Sources */,
