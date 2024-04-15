@@ -6,3 +6,24 @@
 //
 
 import Foundation
+
+struct Appetizer: Decodable {
+    let id: Int
+    let name: String
+    let description: String
+    let price: Double
+    let imageURL: String
+    let calories: Int
+    let protein: Int
+    let carbs: Int
+}
+
+struct AppetizerResponse {
+    let request: [Appetizer]
+}
+
+struct MockData {
+    static let sampleAppetizer = Appetizer(id: 5, name: "Test Appetizer", description: "This is description for my Appetizer", price: 30.0, imageURL: "", calories: 52, protein: 52, carbs: 52)
+    
+    static let appetizers = [sampleAppetizer, sampleAppetizer, sampleAppetizer, sampleAppetizer]
+}
