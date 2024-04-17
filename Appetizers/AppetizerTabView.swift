@@ -26,7 +26,7 @@ struct AppetizerTabView: View {
                     Text("Order")
                 }
         }
-        .accentColor(Color("brandPrimary"))
+        .accentColor(.brandPrimary)
         .onAppear() {
             UITabBar.appearance().backgroundColor = .lightGray
         }

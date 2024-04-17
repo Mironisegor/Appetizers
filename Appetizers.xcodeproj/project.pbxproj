@@ -19,6 +19,9 @@
 		E77881622BCD5C09002CACA6 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77881612BCD5C09002CACA6 /* AccountView.swift */; };
 		E77881642BCD5C20002CACA6 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77881632BCD5C20002CACA6 /* OrderView.swift */; };
 		E77881662BCD6650002CACA6 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77881652BCD6650002CACA6 /* Appetizer.swift */; };
+		E7A24E4C2BCFD72F00BCFD83 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A24E4B2BCFD72F00BCFD83 /* Alert.swift */; };
+		E7A24E4E2BCFF1C000BCFD83 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A24E4D2BCFF1C000BCFD83 /* LoadingView.swift */; };
+		E7A24E502BCFF2E900BCFD83 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A24E4F2BCFF2E900BCFD83 /* Color+Ext.swift */; };
 		F78D5E922BCD82D60055416E /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78D5E912BCD82D60055416E /* AppetizerListCell.swift */; };
 		F78D5E942BCD83B50055416E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78D5E932BCD83B50055416E /* NetworkManager.swift */; };
 		F79BB1D92BCD8D7400904FE2 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79BB1D82BCD8D7400904FE2 /* APError.swift */; };
@@ -57,6 +60,9 @@
 		E77881612BCD5C09002CACA6 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		E77881632BCD5C20002CACA6 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		E77881652BCD6650002CACA6 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		E7A24E4B2BCFD72F00BCFD83 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		E7A24E4D2BCFF1C000BCFD83 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		E7A24E4F2BCFF2E900BCFD83 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		F78D5E912BCD82D60055416E /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		F78D5E932BCD83B50055416E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F79BB1D82BCD8D7400904FE2 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
@@ -122,6 +128,9 @@
 				F78D5E932BCD83B50055416E /* NetworkManager.swift */,
 				F79BB1D82BCD8D7400904FE2 /* APError.swift */,
 				A7B1681A2BCEAB5B000A92AF /* AppetizerListViewModel.swift */,
+				E7A24E4B2BCFD72F00BCFD83 /* Alert.swift */,
+				E7A24E4D2BCFF1C000BCFD83 /* LoadingView.swift */,
+				E7A24E4F2BCFF2E900BCFD83 /* Color+Ext.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -285,10 +294,13 @@
 				F79BB1D92BCD8D7400904FE2 /* APError.swift in Sources */,
 				F78D5E922BCD82D60055416E /* AppetizerListCell.swift in Sources */,
 				A7B1681B2BCEAB5B000A92AF /* AppetizerListViewModel.swift in Sources */,
+				E7A24E502BCFF2E900BCFD83 /* Color+Ext.swift in Sources */,
 				E77881622BCD5C09002CACA6 /* AccountView.swift in Sources */,
+				E7A24E4E2BCFF1C000BCFD83 /* LoadingView.swift in Sources */,
 				E77881382BCD5B55002CACA6 /* AppetizerTabView.swift in Sources */,
 				F78D5E942BCD83B50055416E /* NetworkManager.swift in Sources */,
 				E77881362BCD5B55002CACA6 /* AppetizersApp.swift in Sources */,
+				E7A24E4C2BCFD72F00BCFD83 /* Alert.swift in Sources */,
 				E77881602BCD5BEE002CACA6 /* AppetizerListView.swift in Sources */,
 				E77881642BCD5C20002CACA6 /* OrderView.swift in Sources */,
 			);
